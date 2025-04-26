@@ -1,0 +1,10 @@
+title: ZGY
+description: Personal Website
+author: Guangyu Zhou
+
+# Build settings
+
+remote_theme: jekyll/minima
+
+# Site settings
+permalink: /:title/
