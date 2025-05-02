@@ -1,0 +1,20 @@
+scss---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom CSS to add background image */
+body {
+  background-image: url('/assets/images/winter_dragon.jpg');
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Keep image fixed when scrolling */
+  background-repeat: no-repeat; /* Don't repeat the image */
+}
+
+/* Make sure your content remains readable */
+.page-content, .site-header, .site-footer {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners */
+}
