@@ -1,20 +1,20 @@
-scss---
+---
 ---
 
 @import "{{ site.theme }}";
 
-/* Custom CSS to add background image */
+/* Add your custom styles below */
 body {
-  background-image: url('/assets/images/winter_dragon.jpg');
-  background-size: cover; /* Cover the entire viewport */
-  background-position: center; /* Center the image */
-  background-attachment: fixed; /* Keep image fixed when scrolling */
-  background-repeat: no-repeat; /* Don't repeat the image */
+  background-image: url('/assets/images/cai1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-/* Make sure your content remains readable */
-.page-content, .site-header, .site-footer {
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+/* Optional: Add semi-transparent background to content areas for readability */
+.page-content .wrapper, .site-header .wrapper, .site-footer .wrapper {
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 20px;
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 8px;
 }
